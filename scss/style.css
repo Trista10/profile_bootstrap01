@@ -6,6 +6,26 @@
 nav {
   width: 296px;
   background-color: #EDF4EE;
+  padding: 32px;
+}
+
+.nav-menu a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #121212;
+}
+
+.nav-menu a:hover {
+  color: #2A8356;
+}
+
+.member-img {
+  width: 40px;
+  height: 40px;
 }
 
 .content {

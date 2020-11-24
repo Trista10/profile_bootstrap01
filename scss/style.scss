@@ -1,13 +1,28 @@
-$color-primary:#EDF4EE;
-
+$color-primary:#2A8356;
+$color-secondary:#121212;
+$color-bg:#EDF4EE;
 
 .wrap {
     width: 1280px;
     margin: 0 auto;
 }
+
 nav {
     width: 296px;
-    background-color: $color-primary;
+    background-color: $color-bg;
+    padding: 32px;
+}
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    color: $color-secondary;
+    &:hover {
+        color: $color-primary;
+    }
+}
+.member-img {
+    width: 40px;
+    height: 40px;
 }
 .content {
     background-color: blue;
