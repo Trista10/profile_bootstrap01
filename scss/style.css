@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.wrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 296px;
+  background-color: #EDF4EE;
+}
+
+.content {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
