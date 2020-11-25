@@ -1,3 +1,11 @@
+a {
+  color: #121212;
+}
+
+a:hover {
+  color: #2A8356;
+}
+
 .wrap {
   width: 1280px;
   margin: 0 auto;
@@ -17,11 +25,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #121212;
+  font-weight: 700;
 }
 
 .nav-item a:hover {
-  color: #2A8356;
   border-left: 4px solid #2A8356;
 }
 
@@ -34,7 +41,15 @@
   color: #707070;
 }
 
-.content {
-  background-color: yellow;
+.header {
+  padding: 32px;
+}
+
+.header .dropdown-toggle::after {
+  content: none;
+}
+
+.header .dropdown-primary {
+  color: #2A8356;
 }
 /*# sourceMappingURL=style.css.map */

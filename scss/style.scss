@@ -2,6 +2,14 @@ $color-primary:#2A8356;
 $color-secondary:#121212;
 $color-bg:#EDF4EE;
 
+// 共用
+a {
+    color: $color-secondary;
+}
+a:hover {
+    color: $color-primary;
+}
+
 .wrap {
     width: 1280px;
     margin: 0 auto;
@@ -15,9 +23,8 @@ $color-bg:#EDF4EE;
 .nav-item a {
     display: flex;
     align-items: center;
-    color: $color-secondary;
+    font-weight: 700;
     &:hover {
-        color: $color-primary;
         border-left: 4px solid $color-primary;
     }
 }
@@ -29,6 +36,13 @@ $color-bg:#EDF4EE;
     color: #707070;
 }
 
-.content {
-    background-color: yellow;
+.header {
+    // background-color: yellow;
+    padding: 32px;
+    .dropdown-toggle::after {
+        content:none;
+    }
+    .dropdown-primary {
+        color: $color-primary;
+    }
 }
