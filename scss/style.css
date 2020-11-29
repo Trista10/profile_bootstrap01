@@ -6,6 +6,10 @@ a:hover {
   color: #2A8356;
 }
 
+h6 {
+  font-weight: 700;
+}
+
 .wrap {
   width: 1280px;
   margin: 0 auto;
@@ -32,9 +36,15 @@ a:hover {
   border-left: 4px solid #2A8356;
 }
 
-.member-img {
+.icon-img {
   width: 40px;
   height: 40px;
+  overflow: hidden;
+}
+
+.icon-img img {
+  max-width: 100%;
+  height: auto;
 }
 
 .member-info a {
@@ -51,5 +61,60 @@ a:hover {
 
 .header .dropdown-primary {
   color: #2A8356;
+}
+
+.group-style {
+  color: #121212;
+  border: 1px solid #CDDDCD;
+}
+
+.group-style:hover {
+  background-color: #EDF4EE;
+  color: #121212;
+}
+
+.active {
+  background-color: #EDF4EE;
+  color: #121212;
+}
+
+.group-style.active {
+  background-color: #EDF4EE;
+  color: #121212;
+  border: 1px solid #CDDDCD;
+}
+
+.text-mark {
+  color: #2A8356;
+  background-color: #EDF4EE;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.btn-attach {
+  border: 1px solid #CDDDCD;
+}
+
+.btn-attach:hover {
+  background-color: #e0f1e2;
+}
+
+.btn-outline-green {
+  border: 1px solid #2A8356;
+  color: #2A8356;
+}
+
+.btn-outline-green:hover {
+  color: #fff;
+  background-color: #2A8356;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #2A8356;
+}
+
+.btn-green:hover {
+  background-color: #216643;
 }
 /*# sourceMappingURL=style.css.map */

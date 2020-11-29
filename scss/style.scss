@@ -1,6 +1,7 @@
 $color-primary:#2A8356;
 $color-secondary:#121212;
 $color-bg:#EDF4EE;
+$color-primary-light:#CDDDCD;
 
 // 共用
 a {
@@ -9,7 +10,9 @@ a {
 a:hover {
     color: $color-primary;
 }
-
+h6 {
+    font-weight: 700;
+}
 .wrap {
     width: 1280px;
     margin: 0 auto;
@@ -28,21 +31,69 @@ a:hover {
         border-left: 4px solid $color-primary;
     }
 }
-.member-img {
+.icon-img {
     width: 40px;
     height: 40px;
+    overflow: hidden;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 .member-info a{
     color: #707070;
 }
 
 .header {
-    // background-color: yellow;
     padding: 32px;
     .dropdown-toggle::after {
         content:none;
     }
     .dropdown-primary {
         color: $color-primary;
+    }
+}
+.group-style {
+    color: $color-secondary;
+    border: 1px solid $color-primary-light;
+    &:hover {
+        background-color: $color-bg;
+        color: $color-secondary;
+    }
+}
+.active {
+    background-color: $color-bg;
+    color: $color-secondary;
+}
+.group-style.active {
+    background-color: $color-bg;
+    color: $color-secondary;
+    border: 1px solid $color-primary-light;
+}
+.text-mark {
+    color: $color-primary;
+    background-color: $color-bg;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.btn-attach {
+    border: 1px solid $color-primary-light;
+    &:hover {
+        background-color: #e0f1e2;
+    }
+}
+.btn-outline-green {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+    &:hover {
+        color: #fff;
+        background-color: $color-primary;
+    }
+}
+.btn-green {
+    color: #fff;
+    background-color: $color-primary;
+    &:hover {
+        background-color: #216643;
     }
 }
